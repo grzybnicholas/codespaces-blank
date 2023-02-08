@@ -57,7 +57,7 @@ pre : the value of pageCount can not be negative, as a book's page count can't b
 post : sets pageCount to the value of the parameter, if its a positive integer
 */
   void Book::setPageCount(const int& pageCount){
-   if(page_count >0){
+   if(pageCount >0){
     page_count = pageCount;
      }
   }
