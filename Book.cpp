@@ -23,7 +23,7 @@ post : the private data members of the book class are set the values of the para
     title_ = title_;
     author_= author;
     page_count = pageCount;
-    
+    digital_ = digital;
   }
 /**
 @param : a copy of the book title
