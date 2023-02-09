@@ -19,7 +19,7 @@ param : the amount of pages that the book has (a not negative integer)
 param : checks if the book has a digital form, but in this case it just sets it to its default value, which is false
 post : the private data members of the book class are set the values of the parameters
 */
-  Book::Book(const string& title,const string& author,const int& pageCount,const bool& digital){
+  Book::Book( string title,string author,int pageCount,bool digital){
     title_ = title;
     author_= author;
     page_count = pageCount;
